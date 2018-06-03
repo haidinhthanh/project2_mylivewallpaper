@@ -1,0 +1,20 @@
+{
+  "Catagory": {
+    "0001": {
+      "namecatagory": "Abstract",
+      "urllink": "https://s20.postimg.org/xszmya6fh/abstract_catagory.jpg"
+    },
+    "0002": {
+      "namecatagory": "Car",
+      "urllink": "https://s20.postimg.org/btt8b2xb1/car_catagory.jpg"
+    },
+    "0003": {
+      "namecatagory": "Cartoon",
+      "urllink": "https://s20.postimg.org/gfpcjh8kd/cartoon_catagory.jpg"
+    },
+    "0004": {
+      "namecatagory": "Cat",
+      "urllink": "https://s20.postimg.org/f0nrurmwt/cat_catagory.jpg"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LiveImageView"
+    >
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/like_icon"
+        android:src="@drawable/dontlike"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <ImageView
+        android:src="@drawable/download"
+        android:layout_toLeftOf="@+id/like_icon"
+        android:id="@+id/download_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_progress_bar"
+        />
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gif_bg"
+        android:layout_below="@id/download_icon"
+        android:layout_above="@id/bt_set_bg"
+        />
+    <Button
+        android:text="SET BACK GROUND"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bt_set_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
